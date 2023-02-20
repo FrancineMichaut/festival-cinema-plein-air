@@ -1,0 +1,184 @@
+
+#logo{
+    width: 250px;
+}
+#banniere{
+    box-shadow: -1px 2px 5px 1px 
+    rgba(0, 0, 0, 0.7);  
+}
+
+h1, h2{
+    text-align: center;
+    color : #0D5047;
+    font-weight: bold;
+}
+.textFestival{
+    font-family: 'Oregano', cursive;
+font-family: 'Seymour One', sans-serif;
+    text-shadow: 1px 1px 2px pink;
+}
+.btn{
+    background-color:#ffce54;
+    box-shadow: -1px 2px 5px 1px 
+rgba(0, 0, 0, 0.7); 
+}
+.btn:hover{
+    background-color: #0D5047;
+    color: lightblue;
+}
+.imageCard{
+    height: 380px;
+}
+#parc{
+    background-color: #ffce54;
+    color: #0D5047;
+    box-shadow: -1px 2px 5px 1px   rgba(0, 0, 0, 0.7); 
+    text-align: center;
+}
+.film{
+    box-shadow: -1px 2px 5px 1px 
+    rgba(0, 0, 0, 0.7); 
+    background-color: #FFFDE7;
+}
+.navbar{
+    box-shadow: -1px 2px 5px 1px 
+rgba(0, 0, 0, 0.7); 
+background-color: lightcyan;
+}
+#onglet{
+    color:  #0D5047;
+    font-weight: bold;
+    font-size: large;
+}
+#onglet:hover{
+   color : #ffce54;
+}
+#ongletReserv{
+    color:  #0D5047;
+    font-weight: bold;
+    font-size: large;
+}
+#ongletReserv:hover{
+   color : #ffce54;
+}
+.choixFilm:hover{
+    color:  #0D5047 !important; 
+}
+#inputGroupSelect01{
+    color:  #0D5047 !important; 
+}
+#ongletLieu{
+    color:  #0D5047;
+    font-weight: bold;
+    font-size: large;
+}
+#ongletLieu:hover{
+   color : #ffce54;
+}
+#ongletActu{
+    color:  #0D5047;
+    font-weight: bold;
+    font-size: large;
+}
+#ongletActu:hover{
+   color : #ffce54;
+}
+#ongletContact{
+    color:  #0D5047;
+    font-weight: bold;
+    font-size: large; 
+}
+#ongletContact:hover{
+   color : #ffce54;
+}
+.banniere{
+    background-color:#ffce54 ;
+    color: #00352F;
+}
+.textBanniere{
+    text-align: center;
+}
+.paragrapheBanniere{
+    font-family: 'Oregano'; 
+}
+.numeroBanniere{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+}
+.reservation{
+    box-shadow: -1px 2px 5px 1px 
+    rgba(0, 0, 0, 0.7);   
+    border-radius: 10px;
+    background-color: #a6d0cb;
+}
+.contact{
+    box-shadow: -1px 2px 5px 1px 
+    rgba(0, 0, 0, 0.7);   
+    border-radius: 10px;
+    background-color: #a6d0cb;
+   
+}
+.inputMessContact{
+ height: 100px;  
+ 
+}
+.main{
+    background-color:lightcyan ;
+  
+}
+body{
+    background-color:lightcyan ; 
+}
+.map{
+height: 86%;
+width: auto;
+}
+.imgParc{
+    height: 86%;
+    width: auto; 
+}
+footer{
+    background-color:  #0D5047;
+    color: lightblue;
+}
+.boutonFooter{
+    background-color: #ffce54 ;
+}
+.boutonFooter2{
+    background-color: #ffce54 ;
+}
+
+  @media screen and (max-width: 500px){
+
+#ancreFestival{
+padding-bottom: 0px !important;
+}
+#parc{
+    padding-top: 2rem !important;
+}
+.formReserv{
+padding-left: 0px !important;
+}
+.map{
+padding-right: 0px !important;
+}
+ .formContact{
+padding: 0px !important;    
+
+}
+footer{
+    padding-left: 7%;
+}
+.boutonFooter{
+    margin-bottom: 10px;
+    margin-top: 5%;
+}
+  .boutonFooter2{
+    margin-bottom: 5px;
+    margin-top: 5%;
+   margin-right: 2rem !important;
+   margin-left: 1rem !important;
+   
+ } 
+ 
+  }
